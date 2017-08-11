@@ -1,0 +1,88 @@
+/*Color Codes:
+text: #e4d7c5
+nav bar: #49423a background
+blue:#6fcbd5
+yellow:#fbb535
+red:#df4b35
+grey:#ccbeac
+brown:#49423a
+green: #a1d082
+font face: 'brandon-grotesque', sans-serif;
+*/
+/*Universal Styles*/
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+}
+h1{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 26px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  padding: 0 0 0 20px;
+}
+h2{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  padding: 15px 0 0 20px;
+  border-bottom: 2px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 15px 0 0 20px;
+  letter-spacing: 2px;
+}
+/*Images and Icons*/
+.bigPic{
+  padding: 0 0 0 10%;
+}
+.smallPic{
+  float: right;
+  padding: 0 15px 0 15px;
+  border-left: 2px solid #FFFFFF;
+}
+#logo{
+  padding: 15%;
+}
+/* Section Classes */
+.letter{
+  color: #FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+  width: 25%;
+  padding: 0 10px 1px 10px;
+  float:left;
+  height: 550px;
+}
+
+.blue{
+  background: #6fcbd5;
+}
+.yellow{
+  background: #fbb535;
+}
+.red{
+  background: #df4b35;
+}
+.gray{
+  background: #ccbeac;
+}
+.brown{
+  background: #49423a;
+}
+.green{
+  background: #a1d082;
+}
+/*Hipster Logo Div*/
+.logo{
+  background: #DADADA;
+  width: 50%;
+  height: 550px;
+  float: left;
+}
