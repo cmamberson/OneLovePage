@@ -1,13 +1,11 @@
 /*Color Codes:
-text: #e4d7c5
-nav bar: #49423a background
+nav bar and footer: #49423a
 blue:#6fcbd5
 yellow:#fbb535
 red:#df4b35
 grey:#ccbeac
 brown:#49423a
 green: #a1d082
-font face: 'brandon-grotesque', sans-serif;
 */
 /*Universal Styles*/
 *{
@@ -69,8 +67,7 @@ nav {
   background: #49423a;
   padding: 20px 0 20px 25%;
   position: fixed;
-  float: left;
-  margi
+  clear: both;
 
 }
 li{
